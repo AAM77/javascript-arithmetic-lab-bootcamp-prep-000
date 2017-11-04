@@ -27,11 +27,11 @@ function dec(n) {
 function makeInt(n) {
   checkString = n.toString();
   if (n === checkString) {
-    return (parseInt(n))
+    return (parseInt(n, 10))
   }
   else if ()
   integer = parseInt(n);
   return (integer);
 }
 
-function 
+function
