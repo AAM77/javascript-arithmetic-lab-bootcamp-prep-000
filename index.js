@@ -25,6 +25,13 @@ function dec(n) {
 }
 
 function makeInt(n) {
+  checkString = n.toString();
+  if (n === checkString) {
+    return (parseInt(n))
+  }
+  else if ()
   integer = parseInt(n);
   return (integer);
 }
+
+function 
